@@ -1,0 +1,92 @@
+\documentclass[12pt]{article}
+
+%% preambleb
+\usepackage{amsmath}
+\usepackage[margin = 1in]{geometry}
+\usepackage{graphicx}
+
+
+%% meta data
+
+\title{Stats Paper}
+\author{Kaitlyn Shevlin\\
+  Department of Statistics\\
+  University of Connecticut
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Here is the abstract.  
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:intro}
+
+Use this section to answer three questions:
+Why is the topic important/interesting?
+What has been done on this topic in the literature?
+What is your contribution?
+
+
+% roadmap
+The rest of the paper is organized as follows.
+The data will be presented in Section~2.
+
+
+\section{Data}
+\label{sec:data}
+
+Use this section to describe the data that helps to answer your research questions.
+
+\section{Methods}
+\label{sec:meth}
+
+Use this section to present the methodologies that will generate results by
+analyzing the data.
+\begin{equation}
+  \label{eq:line}
+  y = 2x + 4 
+\end{equation}
+
+Another equation.
+\begin{equation}
+  \label{eq:line}
+y = {1\over\displaystyle x}
+\end{equation}
+
+
+\section{Results}
+\label{sec:results}
+
+\begin{table}[ht]
+  \caption{This is my first table.}
+  \label{tab:rv}
+\centering
+\begin{tabular}{rrr}
+  \hline
+Col1 & Col2 & Col3 \\ 
+  \hline
+1 & 2 & 3 \\ 
+4 & 5 & 8\\ 
+7 & 8 & 9\\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{normalcurve.jpg}
+  \caption{This is my first figure.}
+  \label{fig:graph}
+\end{figure}
+
+\section{Discussion}
+\label{sec:disc}
+
+
+\end{document}
